@@ -218,10 +218,11 @@ body{
 }
 
 .audio{
-    background-image: url(../images/audio-dj.jpg);
+    background-image: url(../images/audio-bg.jpg);
     background-repeat: no-repeat;
     background-position: top center;
     background-size: cover;
+    display: block;
 }
 
 .audio__inner{
