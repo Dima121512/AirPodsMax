@@ -38,7 +38,7 @@ body{
     margin: 0 auto;
 }
 
-.mein__title{
+.main__title{
     font-weight: 700;
     font-size: 64px;
     margin-bottom: 20px;
@@ -178,10 +178,56 @@ body{
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    gap: 230px;
+    gap: 80px;
 }
 
 .composition__inner-text p{
-    width: 230px;
-    
+    width: 230px;    
+}
+
+.case{
+    background-color: #fafafa;
+    padding: 80px 0 100px;
+    text-align: center;
+}
+
+.case__text{
+    max-width: 825px;
+    margin: 0 auto 40px;
+}
+
+.energy__title {
+    padding-top: 160px;
+    margin-bottom: 40px;  
+}
+
+.energy__num{
+    font-size: 210px;
+    font-weight: 700;
+    margin-bottom: 40px;
+}
+
+.energy__text{
+    max-width: 400px ;
+    margin: 0 auto;
+}
+
+.footer{
+   padding: 250px 0 40px;
+   background-color: #000; 
+}
+
+.audio{
+    background-image: url(../images/audio-dj.jpg);
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: cover;
+}
+
+.audio__inner{
+   min-height: 200vh; 
+}
+
+.audio__box{
+
 }
