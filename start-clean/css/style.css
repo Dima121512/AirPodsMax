@@ -212,16 +212,19 @@ body{
     margin: 0 auto;
 }
 
-.footer{
-   padding: 250px 0 40px;
-   background-color: #000; 
-}
+
 
 .audio{
     position: relative;
+    background-image: url(../images/sound-full.jpg);
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: cover;
+    display: block;
+
 }
 
-.audio::before{
+/* .audio::before{
     content: ' ';
     background-image: url(../images/audio-bg.jpg);
     background-repeat: no-repeat;
@@ -252,10 +255,10 @@ body{
     left: 0;
     right: 0;
     z-index: -1;
-}
+} */
 
 .audio__inner{
-   min-height: 200vh; 
+   min-height: 220vh; 
    display: flex;
    justify-content: center;
    align-items: flex-end;
@@ -264,7 +267,7 @@ body{
 .audio__box{
     color: #fff;
     text-align: center;
-    padding-bottom: 30vh;
+    padding-bottom: 50vh;
 }
 
 .audio__text{
@@ -281,3 +284,23 @@ body{
     color: #000;
     margin-top: 25px;
 }
+
+.footer{
+    padding: 50px 0 40px;
+    background-color: #000; 
+    color: #fff;
+    text-align: center;
+    font-weight: 700;
+ }
+
+ .footer__text{
+    padding: 20px 0;
+ }
+
+ .footer__list{
+    padding-top: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0 20px;
+ }
