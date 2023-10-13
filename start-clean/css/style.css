@@ -44,6 +44,15 @@ body{
     margin-bottom: 20px;
 }
 
+.content-item{
+   display: none; 
+}
+
+.content-item.content-item__active{
+    display: inline-block;
+}
+
+
 .header{
     position: relative;
     min-height: 100vh;
@@ -151,6 +160,10 @@ body{
     border-radius: 20px;
     border: 1px solid #777;
     padding: 50px 50px;
+}
+
+.choose__color-btm.choose__color-btn--active{
+    display: none;
 }
 
 .composition{
